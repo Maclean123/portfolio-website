@@ -771,3 +771,175 @@ header img {
 
 
 }
+/* =========================
+   MOBILE RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 768px) {
+
+
+    body {
+        overflow-x: hidden;
+    }
+
+
+    /* Navigation */
+
+    nav {
+        padding: 15px;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    nav a {
+        font-size: 14px;
+    }
+
+
+
+    /* Hero Section */
+
+    header {
+
+        min-height: auto;
+        padding: 80px 20px 60px;
+
+        background:
+        radial-gradient(
+        circle at top,
+        rgba(177,18,38,0.25),
+        transparent 45%
+        );
+
+    }
+
+
+
+    /* Profile Image */
+
+    header img {
+
+        width: 130px;
+        height: 130px;
+
+        margin-bottom: 25px;
+
+    }
+
+
+
+    /* Main Name */
+
+    header h1 {
+
+        font-size: 42px;
+        line-height: 1.1;
+
+        text-align:center;
+
+    }
+
+
+
+    header h2 {
+
+        font-size: 24px;
+
+        margin-top:20px;
+
+    }
+
+
+
+    header p {
+
+        font-size:16px;
+
+        line-height:1.6;
+
+        max-width:350px;
+
+        margin:auto;
+
+    }
+
+
+
+    /* Github Button */
+
+
+    button {
+
+        padding:14px 35px;
+
+        font-size:16px;
+
+        margin-top:25px;
+
+    }
+
+
+
+    /* Sections */
+
+
+    section {
+
+        padding:50px 20px;
+
+    }
+
+
+
+    section h2 {
+
+        font-size:32px;
+
+    }
+
+
+
+    section p {
+
+        font-size:16px;
+
+        line-height:1.7;
+
+    }
+
+
+
+    /* Project Card */
+
+
+    .project {
+
+        margin:20px;
+
+        padding:25px;
+
+    }
+
+
+
+    .project h3 {
+
+        font-size:22px;
+
+    }
+
+
+
+    /* Skills */
+
+
+    ul {
+
+        padding-left:20px;
+
+    }
+
+
+}
